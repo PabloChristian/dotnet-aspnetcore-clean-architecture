@@ -1,0 +1,7 @@
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.exe
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.AssemblyInfo.cs
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.RazorTargetAssemblyInfo.cache
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\staticwebassets\CleanArchitecture.Infrastructure.StaticWebAssets.Manifest.cache
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\staticwebassets\CleanArchitecture.Infrastructure.StaticWebAssets.xml
