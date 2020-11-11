@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Core", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Infrastructure", "CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj", "{E10956C3-5201-4CE8-A79F-0435BB049B38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.ApiRest", "CleanArchitecture.ApiRest\CleanArchitecture.ApiRest.csproj", "{95141564-CDCA-467E-9D87-02BF1C6CF919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.ApiRest", "CleanArchitecture.ApiRest\CleanArchitecture.ApiRest.csproj", "{95141564-CDCA-467E-9D87-02BF1C6CF919}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,4 +2,10 @@ C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Applic
 C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\netcoreapp3.1\CleanArchitecture.Application.csprojAssemblyReference.cache
 C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\netcoreapp3.1\CleanArchitecture.Application.AssemblyInfoInputs.cache
 C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\netcoreapp3.1\CleanArchitecture.Application.AssemblyInfo.cs
-C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\netcoreapp3.1\CleanArchitecture.Application.RazorTargetAssemblyInfo.cache
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Application\bin\Debug\netcoreapp3.1\CleanArchitecture.Application.deps.json
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Application\bin\Debug\netcoreapp3.1\CleanArchitecture.Application.dll
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Application\bin\Debug\netcoreapp3.1\CleanArchitecture.Application.pdb
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Application\bin\Debug\netcoreapp3.1\CleanArchitecture.Core.pdb
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\netcoreapp3.1\CleanArchitecture.Application.csproj.CopyComplete
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\netcoreapp3.1\CleanArchitecture.Application.dll
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\netcoreapp3.1\CleanArchitecture.Application.pdb

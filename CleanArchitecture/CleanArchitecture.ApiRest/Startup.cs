@@ -20,6 +20,9 @@ using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Http;
+using HealthChecks.UI.Client;
+using AutoMapper;
 
 namespace CleanArchitecture.ApiRest
 {
@@ -40,10 +43,17 @@ namespace CleanArchitecture.ApiRest
                 options.UseInMemoryDatabase("Produtos");
             });
 
+            services.AddAutoMapper(typeof(IProdutoService));
+
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IProdutoService, ProdutoService>();
 
+            services.AddHealthChecks().AddUrlGroup(new Uri("http://www.igti.com.br"), "IGTI", HealthStatus.Healthy);
+            services.AddHealthChecksUI().AddInMemoryStorage();
+
             services.AddControllers();
+
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,6 +70,13 @@ namespace CleanArchitecture.ApiRest
 
             app.UseAuthorization();
 
+            app.UseSwagger();
+
+            app.UseSwaggerUI(options => {
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Clean Architecture API - v1");
+                options.RoutePrefix = string.Empty;
+            });
+
             app.UseHealthChecks("/status",
                 new HealthCheckOptions
                 {
@@ -67,8 +84,7 @@ namespace CleanArchitecture.ApiRest
                         var result = JsonConvert.SerializeObject(new
                         {
                             status = report.Status.ToString(),
-                            healthChecks = report.Entries.Select(e => new
-                            {
+                            healthChecks = report.Entries.Select(e => new {
                                 check = e.Key,
                                 error = e.Value.Exception?.Message,
                                 status = Enum.GetName(typeof(HealthStatus), e.Value.Status)
@@ -76,10 +92,25 @@ namespace CleanArchitecture.ApiRest
                         });
 
                         context.Response.ContentType = MediaTypeNames.Application.Json;
+                        await context.Response.WriteAsync(result);
+                    }
+                });
 
-                        app.UseEndpoints(endpoints =>
+
+            app.UseHealthChecks("/hcui-data", new HealthCheckOptions
             {
+                Predicate = _ => true,
+                ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+            });
+
+            app.UseHealthChecksUI();
+
+            app.UseEndpoints(endpoints =>
+            {
+
                 endpoints.MapControllers();
+
+
             });
         }
     }

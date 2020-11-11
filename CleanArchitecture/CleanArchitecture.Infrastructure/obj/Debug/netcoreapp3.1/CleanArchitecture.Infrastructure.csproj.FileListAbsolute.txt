@@ -1,7 +1,11 @@
-C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.exe
 C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.AssemblyInfoInputs.cache
 C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.AssemblyInfo.cs
-C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.RazorTargetAssemblyInfo.cache
-C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\staticwebassets\CleanArchitecture.Infrastructure.StaticWebAssets.Manifest.cache
-C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\staticwebassets\CleanArchitecture.Infrastructure.StaticWebAssets.xml
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.csprojAssemblyReference.cache
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.deps.json
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.dll
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.pdb
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\CleanArchitecture.Core.dll
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\CleanArchitecture.Core.pdb
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.csproj.CopyComplete
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.dll
+C:\Projetos\Pessoal\CleanArchitecture\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.pdb

@@ -9,6 +9,8 @@ using Microsoft.Extensions.Logging;
 
 namespace CleanArchitecture.ApiRest.Controllers
 {
+    [ApiController]
+    [Route("/api/produto")]
     public class ProdutoController : ControllerBase
     {
         private readonly IProdutoService _service;
